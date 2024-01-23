@@ -8,7 +8,7 @@ import Login from "../LoginInfo/Login";
 import Register from "../LoginInfo/Register";
 import PrivetRouts from "../PrivetRouts/PrivetRouts";
 import Trams from "../pages/Trams&Condition/Trams";
-import Errorpages from "../pages/Errorpages/Errorpages";
+// import Errorpages from "../pages/Errorpages/Errorpages";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <Categoris></Categoris>,
         loader: () =>
           fetch(
-            "https://news-practice-server-qmz3yybrm-mituls-projects-8bcc9346.vercel.app/news"
+            "https://news-practice-server-two.vercel.app/news"
           ),
       },
       {
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         element: <Categoris></Categoris>,
         loader: ({ params }) =>
           fetch(
-            `https://news-practice-server-qmz3yybrm-mituls-projects-8bcc9346.vercel.app/categoris/${params.id}`
+            `https://news-practice-server-two.vercel.app/categoris/${params.id}`
           ),
       },
     ],
@@ -48,7 +48,7 @@ const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://news-practice-server-qmz3yybrm-mituls-projects-8bcc9346.vercel.app/news/${params.id}`
+            `https://news-practice-server-two.vercel.app/news/${params.id}`
           ),
       },
     ],

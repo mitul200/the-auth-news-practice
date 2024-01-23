@@ -1,34 +1,34 @@
 [
     {
         "id": "0",
-        "name": "All News"
+        "name": "All recipe"
     },
     {
         "id": "1",
-        "name": "Breaking News"
+        "name": "fish recipe"
     },
     {
         "id": "2",
-        "name": "Regular News"
+        "name": "vagetable recipe"
     },
     {
         "id": "3",
-        "name": "International News"
+        "name": "rice recipe"
     },
     {
         "id": "4",
-        "name": "Sports"
+        "name": "chicken recipe"
     },
     {
         "id": "5",
-        "name": "Entertainment"
+        "name": "burger recipe"
     },
     {
         "id": "6",
-        "name": "Culture"
+        "name": "biriyani recipe"
     },
     {
         "id": "7",
-        "name": "Arts"
+        "name": "cow recipe"
     }
 ]
